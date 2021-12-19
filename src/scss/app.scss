@@ -27,3 +27,59 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+@media only screen and (max-width: 1026px) {
+  .navbar-burger {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-burger {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .navbar-burger {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar-burger {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar-burger {
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 1026px) {
+  .navbar-menu {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-menu {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .navbar-menu {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar-menu {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar-menu {
+    display: none;
+  }
+}
